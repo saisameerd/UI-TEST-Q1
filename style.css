@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&family=Sacramento&display=swap');
+
+
+*{
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    overflow-x: 0;
+    overflow-y: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+
+    
+}
+
+.banner{
+    
+    position: absolute;
+    border: 2px solid #2DD35C;
+    border-left: 0px;
+    /* border-left: solid 4px black; */
+    width: 80vw;
+    border-radius: 0 25rem 0.8rem 0;
+}
+
+
+.home{
+    padding: 20px;
+    border-left: 5px solid black;
+    padding-left: 0%;
+}
+.content{
+    margin: 5rem 5rem;
+    padding: 3rem 2rem;
+    position: relative;
+
+    
+    
+
+}
+
+.home-text{
+    font-size: 2.2rem;
+    line-height: 0.6rem;
+
+}
+
+.home-text-1{
+    font-weight: 500;
+}
+
+
+.home-text-2{
+    color: #5553B7;
+    font-weight:900;  
+}
+
+.btns{
+    padding-top: 0.5rem;
+    display: flex;
+  justify-content:space-between;
+  width: 20rem;
+  
+    
+}
+
+
+.free{
+    height: 36px;
+    border-radius: 50%;
+    border-radius: 50px;
+    background-color: #2DD35C;
+    color: #ffffff;
+    border: none;
+    width: 45%;
+    cursor: pointer;
+}
+
+
+.demo{
+    height: 36px;
+    border-radius: 50%;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #5553B7;
+    border: solid 1px #5553B7;
+    font-weight: 600;
+    width: 45%;
+    cursor: pointer;
+
+}
+
+.design-1{
+   
+width: 50vw;
+height:45vh ;
+right:0;
+bottom: 8rem;
+position: absolute;
+background: rgba(134, 141, 183, 0.50);
+border-radius: 200px 0px 0px 40px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(134, 141, 183, 0.31);
+
+
+}
+
+
