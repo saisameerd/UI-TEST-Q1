@@ -103,9 +103,9 @@ section{
    
 width: 50vw;
 height:45vh ;
-right:0;
-bottom: 8rem;
-position: absolute;
+right: -50%;
+bottom: 0;
+position: relative;
 background: rgba(134, 141, 183, 0.50);
 border-radius: 200px 0px 0px 40px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
